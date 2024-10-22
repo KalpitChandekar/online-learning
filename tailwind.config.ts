@@ -8,7 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        gray: "#696984",
+        blue: "#2F327D",
+        orange: "#F48C06",
+        sky_blue: "#23BDEE",
+      },
+      backgroundColor: {
+        main: "#FFF2E1",
+        subscribe: "#545AE8",
+        orange: "#F48C06",
+        sky_blue: "#23BDEE",
+        footer: "#252641",
+      },
     },
   },
   plugins: [],
