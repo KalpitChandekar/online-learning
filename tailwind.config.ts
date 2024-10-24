@@ -20,6 +20,7 @@ const config: Config = {
         orange: "#F48C06",
         sky_blue: "#23BDEE",
         footer: "#252641",
+        hero: "#FFF2E1",
       },
     },
   },
