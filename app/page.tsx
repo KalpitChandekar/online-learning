@@ -1,6 +1,7 @@
 import Companies from "@/Components/Companies";
 import Hero from "@/Components/Hero";
 import Navbar from "@/Components/Navbar";
+import Specification from "@/Components/Specification";
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
         <Hero />
       </div>
       <Companies />
+      <Specification />
     </div>
   );
 };
