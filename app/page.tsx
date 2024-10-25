@@ -1,3 +1,4 @@
+import Companies from "@/Components/Companies";
 import Hero from "@/Components/Hero";
 import Navbar from "@/Components/Navbar";
 
@@ -8,6 +9,7 @@ const page = () => {
         <Navbar />
         <Hero />
       </div>
+      <Companies />
     </div>
   );
 };
