@@ -1,3 +1,4 @@
+import About from "@/Components/About";
 import Companies from "@/Components/Companies";
 import Hero from "@/Components/Hero";
 import Navbar from "@/Components/Navbar";
@@ -12,6 +13,7 @@ const page = () => {
       </div>
       <Companies />
       <Specification />
+      <About />
     </div>
   );
 };
