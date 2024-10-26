@@ -2,7 +2,7 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <div className="max-w-6xl mx-auto z-10 pt-6 flex justify-between">
+    <div className="max-w-5xl mx-auto z-10 pt-6 flex justify-between">
       <a href="/">
         <Logo />
       </a>

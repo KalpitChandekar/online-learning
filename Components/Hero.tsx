@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="max-w-6xl mx-auto flex justify-between">
+    <div className="max-w-5xl mx-auto flex justify-between">
       <div className="max-w-md space-y-6 my-24">
         <h1 className="text-4xl text-blue font-bold leading-snug">
           <span className="text-orange">Studying</span> Online is now much
