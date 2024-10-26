@@ -22,6 +22,10 @@ const config: Config = {
         footer: "#252641",
         hero: "#FFF2E1",
       },
+      backgroundImage: {
+        instructor: "url('/instructor.png')",
+        student: "url('/student.png')",
+      },
     },
   },
   plugins: [],
