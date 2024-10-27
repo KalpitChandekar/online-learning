@@ -18,6 +18,7 @@ const config: Config = {
         main: "#FFF2E1",
         subscribe: "#545AE8",
         orange: "#F48C06",
+        bg_orange: "#F4B767",
         sky_blue: "#23BDEE",
         footer: "#252641",
         hero: "#FFF2E1",
