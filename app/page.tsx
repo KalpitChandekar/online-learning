@@ -7,7 +7,7 @@ import Specification from "@/Components/Specification";
 const page = () => {
   return (
     <div>
-      <div className="bg-[#FFF2E1] clip-path-custom-curve">
+      <div className="max-w-7xl mx-auto bg-[#FFF2E1] clip-path-custom-curve">
         <Navbar />
         <Hero />
       </div>
