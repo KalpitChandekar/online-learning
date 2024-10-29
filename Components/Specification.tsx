@@ -20,7 +20,7 @@ const Card: React.FC<CardProps> = ({ title, description, icon }) => {
 
 const Specification = () => {
   return (
-    <div className="max-w-5xl mx-auto my-20 space-y-14">
+    <div className="max-w-5xl mx-auto my-40 space-y-14">
       <div className="text-center space-y-4 mx-auto max-w-lg">
         <h1 className="text-2xl font-bold text-blue">
           All-In-One <span className="text-orange">Cloud Software</span>
