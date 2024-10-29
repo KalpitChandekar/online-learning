@@ -14,6 +14,7 @@ const config: Config = {
         orange: "#F48C06",
         sky_blue: "#23BDEE",
         red: "#F67766",
+        footer: "#252641",
       },
       backgroundColor: {
         main: "#FFF2E1",
