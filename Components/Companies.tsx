@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Companies = () => {
   return (
-    <div className="max-w-5xl mx-auto space-y-8 text-center my-20">
+    <div className="max-w-5xl mx-auto space-y-8 text-center my-40">
       <p className="text-gray">Trusted by 5,000+ Companies Worldwide</p>
       <div className="flex justify-between">
         <Image src="/google.png" alt="Companies" width={151} height={45}  className="w-24"/>
