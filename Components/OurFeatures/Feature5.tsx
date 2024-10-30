@@ -3,7 +3,7 @@ import Image from "next/image";
 const Feature5 = () => {
   return (
     <div className="space-y-20">
-      <div className="flex gap-20 items-center">
+      <div className="flex md:flex-row flex-col-reverse gap-20 items-center">
         <div className="relative">
           <Image src="/feature5.png" alt="feature1" width={761} height={561} />
         </div>
