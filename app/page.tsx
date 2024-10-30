@@ -1,5 +1,6 @@
 import About from "@/Components/About";
 import Companies from "@/Components/Companies";
+import Footer from "@/Components/Footer";
 import Hero from "@/Components/Hero";
 import Integration from "@/Components/Intergration";
 import Navbar from "@/Components/Navbar";
@@ -22,6 +23,7 @@ const page = () => {
       <Integration />
       <Testimonial />
       <NewsResources />
+      <Footer />
     </div>
   );
 };
