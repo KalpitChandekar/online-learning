@@ -15,6 +15,7 @@ const config: Config = {
         sky_blue: "#23BDEE",
         red: "#F67766",
         footer: "#252641",
+        footer_text: "#B2B3CF",
       },
       backgroundColor: {
         main: "#FFF2E1",
