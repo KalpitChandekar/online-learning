@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="max-w-5xl mx-auto my-40 space-y-20">
+    <div className="max-w-5xl mx-auto px-4 md:px-0 my-40 space-y-20">
       <div className="space-y-14">
         <div className="text-center space-y-4 mx-auto max-w-2xl">
           <h1 className="text-2xl font-bold text-blue">
@@ -15,8 +15,8 @@ const About = () => {
             provide students with feedback all in one place.
           </p>
         </div>
-        <div className="flex justify-between gap-16">
-          <div className="bg-instructor flex flex-col items-center justify-center space-y-4 bg-cover rounded-md w-full h-[300px]">
+        <div className="flex md:flex-row flex-col justify-between gap-16">
+          <div className="bg-instructor flex flex-col items-center justify-center space-y-4 bg-cover bg-center rounded-md w-full h-[300px]">
             <h1 className="text-2xl font-bold text-white">OUR INSTRUCTORS</h1>
             <button className="border border-white rounded-full text-white py-3 px-8">
               Start a class today
@@ -31,7 +31,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex gap-20">
+      <div className="flex md:flex-row flex-col gap-20">
         <div className="space-y-8 max-w-md relative">
           <h1 className="text-2xl font-bold text-blue ">
             Everything you can do in a physical classroom,{" "}
