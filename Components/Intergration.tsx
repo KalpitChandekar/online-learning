@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Integration = () => {
   return (
-    <div className="max-w-5xl mx-auto my-40 flex items-center justify-around">
+    <div className="max-w-5xl mx-auto md:flex-row flex-col-reverse md:px-0 px-4 my-40 gap-16 md:gap-0 flex items-center justify-around">
       <div className="grid grid-cols-2 gap-10">
         <Image
           src="/Integration1.png"
