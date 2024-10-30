@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Feature4 = () => {
   return (
-    <div className="flex gap-20 items-center">
+    <div className="flex md:flex-row flex-col gap-20 items-center">
       <div className="space-y-6 max-w-sm">
         <h1 className="text-2xl font-bold text-blue">
           <span className="text-orange">Class Management</span> <br /> Tools for
