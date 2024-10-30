@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Feature1 = () => {
   return (
-    <div className="flex gap-20 items-center">
+    <div className="flex md:flex-row flex-col-reverse gap-20 items-center">
       <div className="relative">
         <Image src="/feature1.png" alt="feature1" width={956} height={582} />
         <div className="h-28 w-28 -z-10 rounded-full absolute bg-green -top-14 left-10"></div>

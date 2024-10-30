@@ -6,7 +6,7 @@ import Feature5 from "./Feature5";
 
 const OurFeatures = () => {
   return (
-    <div className="max-w-5xl mx-auto my-40 space-y-40">
+    <div className="max-w-5xl mx-auto px-4 md:px-0 my-40 space-y-40">
       <div className="space-y-14">
         <div className="text-center space-y-4 mx-auto max-w-2xl">
           <h1 className="text-2xl font-bold text-blue">
@@ -18,13 +18,12 @@ const OurFeatures = () => {
           </p>
         </div>
       </div>
-     
-     <Feature1 />
-     <Feature2 />
-     <Feature3 />
-     <Feature4 />
-     <Feature5 />
-        
+
+      <Feature1 />
+      <Feature2 />
+      <Feature3 />
+      <Feature4 />
+      <Feature5 />
     </div>
   );
 };
