@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="max-w-5xl mx-auto flex justify-between">
+    <div
+      className="max-w-5xl mx-auto px-4 md:px-0 flex md:flex-row flex-col md:justify-between items-center md:items-start
+    "
+    >
       <div className="max-w-md space-y-6 my-24">
         <h1 className="text-4xl text-blue font-bold leading-snug">
           <span className="text-orange">Studying</span> Online is now much
@@ -28,7 +31,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="w-[31rem]">
+      <div className="md:w-[31rem]">
         <Image
           src="/hero.png"
           alt="hero"
