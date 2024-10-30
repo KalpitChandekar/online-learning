@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const NewsResources = () => {
   return (
-    <div className="max-w-5xl mx-auto my-40 space-y-16">
+    <div className="max-w-5xl mx-auto md:px-0 px-4 md:flex-row flex-col my-40 space-y-16">
       <div className="text-center space-y-4 mx-auto max-w-lg">
         <h1 className="text-2xl font-bold text-blue">
           Latest News nad Resources
@@ -12,7 +12,7 @@ const NewsResources = () => {
         </p>
       </div>
 
-      <div className="flex gap-20">
+      <div className="flex gap-20 md:flex-row flex-col">
         <div className="space-y-4 flex flex-col items-start">
           <Image src="/news1.png" alt="news1" width={640} height={340} />
           <div className="text-footer font-semibold rounded-full py-1 px-3 bg-bg_orange">
@@ -30,7 +30,7 @@ const NewsResources = () => {
         </div>
         {/* 280 200 */}
         <div className="space-y-10">
-          <div className="flex gap-6 items-start">
+          <div className="flex gap-6 md:flex-row flex-col items-start">
             <div className="relative">
               <Image src="/news2.png" alt="news" width={280} height={200} />
               <div className="text-footer absolute bottom-2 right-2 text-xs rounded-full py-1 px-3 bg-bg_orange">
@@ -47,7 +47,7 @@ const NewsResources = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-6 items-start">
+          <div className="flex gap-6 md:flex-row flex-col items-start">
             <div className="relative">
               <Image src="/news3.png" alt="news" width={280} height={200} />
               <div className="text-footer absolute bottom-2 right-2 text-xs rounded-full py-1 px-3 bg-bg_orange">
@@ -65,7 +65,7 @@ const NewsResources = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-6 items-start">
+          <div className="flex gap-6 md:flex-row flex-col items-start">
             <div className="relative">
               <Image src="/news4.png" alt="news" width={280} height={200} />
               <div className="text-footer absolute bottom-2 right-2 text-xs rounded-full py-1 px-3 bg-bg_orange">
