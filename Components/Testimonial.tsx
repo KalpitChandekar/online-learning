@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Testimonial = () => {
   return (
-    <div className="max-w-5xl mx-auto my-40 flex items-center gap-40">
-      <div className="space-y-6 ml-10 max-w-xs">
+    <div className="max-w-5xl mx-auto md:px-0 px-4 my-40 flex md:flex-row flex-col items-center gap-40">
+      <div className="space-y-6 md:ml-10 max-w-xs">
         <div className="flex items-center gap-4">
           <div className="bg-gray h-[1px] w-14"></div>
           <h1 className="text-gray">TESTIMONIAL</h1>
@@ -38,7 +38,7 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="absolute -bottom-16 left-12 rounded-2xl bg-white py-6 px-8 text-gray space-y-4 shadow-lg w-[28rem] border-red border-l-8">
+        <div className="absolute md:-bottom-16 md:left-12 -bottom-20 -left-7 rounded-2xl bg-white py-6 px-8 text-gray space-y-4 shadow-lg w-[23rem] md:w-[28rem] border-red border-l-8">
           <div className="flex gap-4 items-center">
             <div className="w-2 h-24 bg-[#BDBDD1]"></div>
             <p className="">
