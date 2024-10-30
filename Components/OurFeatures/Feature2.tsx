@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Feature2 = () => {
   return (
-    <div className="flex gap-20 items-center">
+    <div className="flex md:flex-row flex-col gap-20 items-center">
       <div className="space-y-6 max-w-sm">
         <h1 className="text-2xl font-bold text-blue">
-          <span className="text-orange">Tools</span> designed for <br /> Teachers
-          And Learners
+          <span className="text-orange">Tools</span> designed for <br />{" "}
+          Teachers And Learners
         </h1>
         <p className="text-gray">
           Class has a dynamic set of teaching tools built to be deployed and
@@ -15,7 +15,7 @@ const Feature2 = () => {
         </p>
       </div>
 
-      <div className="relative w-[30rem]">
+      <div className="relative md:w-[30rem]">
         <Image src="/feature2.png" alt="feature1" width={679} height={611} />
       </div>
     </div>
