@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="max-w-7xl mx-auto py-10 flex flex-col gap-12 items-center justify-center bg-footer">
+    <div className="max-w-7xl mx-auto md:px-0 px-4 py-10 flex flex-col gap-12 items-center justify-center bg-footer">
       <div className="flex gap-14 items-center justify-center">
         <Image
           src="/logo.png"
@@ -25,7 +25,7 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Your email"
-            className="w-72 h-10 border border-gray rounded-full bg-transparent px-6"
+            className="md:w-72 h-10 border border-gray rounded-full bg-transparent px-6"
           />
           <button className="bg-blue text-white h-10 w-28 rounded-full">
             Subscribe
